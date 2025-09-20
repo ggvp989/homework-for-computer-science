@@ -155,3 +155,18 @@ sek = floor(sek)
 print(hours)
 print(min)
 print(sek)
+[sravnenie_spiskov.py](https://github.com/user-attachments/files/22440555/sravnenie_spiskov.py)
+a = int(input())
+b = int(input())
+a_set = set(a)
+b_set = set(b)
+def array_diff(a, b_set):
+    return list(set(a) - set(b))
+    return [x for x in a if x not in b_set]
+print(f"spisok a: {a}")
+print(f"spisok b: {b}")
+print(f"vash resultat: {array_diff(a,b_set)}")[Jaden_Smith.py](https://github.com/user-attachments/files/22440556/Jaden_Smith.py)
+string = input("Enter your string: ")
+def to_jaden_case(string):
+      return string.capitalize()
+print(to_jaden_case(string))
